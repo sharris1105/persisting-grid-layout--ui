@@ -21,7 +21,7 @@ namespace PersistingGridLayoutApp.Controllers
         }
 
         [HttpPatch("[action]")]
-        public IActionResult LayoutState(string userProfilePk, string itemStorageKey, [FromBody] GridStateDto body)
+        public IActionResult LayoutState(string userProfilePk, string itemStorageKey, [FromBody] GridStateDto stateData)
         {
             if (_layoutStateDto == null)
             {
@@ -29,7 +29,7 @@ namespace PersistingGridLayoutApp.Controllers
             }
             _layoutStateDto.UserProfilePk = userProfilePk;
             _layoutStateDto.StorageKey = itemStorageKey;
-            //_layoutStateDto.StateData = stateData;
+            _layoutStateDto.StateData = stateData;
 
             return Ok(_layoutStateDto);
         }

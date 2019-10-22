@@ -9,16 +9,4 @@ namespace PersistingGridLayoutApp.Dtos
         public int PageIndex { get; set; }
         public int PageSize { get; set; }
     }
-
-    public class GridColumnDto
-    {
-        public int? VisibleIndex { get; set; }
-        public string DataField { get; set; }
-        public string DataType { get; set; }
-        public string Width { get; set; }
-        public bool? Visible { get; set; }
-        public string SortOrder { get; set; }
-        public int GroupIndex { get; set; }
-        public string FilterValue { get; set; }
-    }
 }
