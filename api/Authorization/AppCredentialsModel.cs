@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace PeristingGridLayoutApp.Authorization
+namespace PersistingGridLayoutApp.Authorization
 {
     public class AppCredentialsModel
     {

@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using PeristingGridLayoutApp.ConfigModels;
+using PersistingGridLayoutApp.ConfigModels;
 
-namespace PeristingGridLayoutApp.Authorization
+namespace PersistingGridLayoutApp.Authorization
 {
     public class AuthClientConfig : HttpClientConfig
     {

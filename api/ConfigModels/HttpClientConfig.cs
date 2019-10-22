@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PeristingGridLayoutApp.ConfigModels
+namespace PersistingGridLayoutApp.ConfigModels
 {
     public class HttpClientConfig
     {

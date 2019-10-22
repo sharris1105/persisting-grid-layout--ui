@@ -1,12 +1,12 @@
-using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
- using Newtonsoft.Json;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
-namespace PeristingGridLayoutApp.Authorization
+namespace PersistingGridLayoutApp.Authorization
 {
     public class AppAuthClient : IAppAuthClient
     {

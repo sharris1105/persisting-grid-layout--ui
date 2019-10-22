@@ -6,7 +6,7 @@ using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.OpenSsl;
 
-namespace PeristingGridLayoutApp.Authorization
+namespace PersistingGridLayoutApp.Authorization
 {
     public class EncryptionService : IEncryptionService
     {

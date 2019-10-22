@@ -20,11 +20,11 @@
         "EncryptionPublicKeyFilePath": "",
         "EncryptionPrivateKeyFileName": "RSAPrivateKey.txt",
         "EncryptionPublicKeyFileName": "EncryptionPublicKey",
-        "JwtIssuer": "PeristingGridLayoutApp",
+        "JwtIssuer": "PersistingGridLayoutApp",
         "SigningPublicKeyFilePath": ""
       }
     },
-    "PeristingGridLayoutApp": {
+    "PersistingGridLayoutApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:4201",
@@ -37,7 +37,7 @@
         "EncryptionPublicKeyFilePath": "",
         "EncryptionPrivateKeyFileName": "RSAPrivateKey.txt",
         "EncryptionPublicKeyFileName": "EncryptionPublicKey",
-        "JwtIssuer": "PeristingGridLayoutApp",
+        "JwtIssuer": "PersistingGridLayoutApp",
         "SigningPublicKeyFilePath": ""
       }
     }

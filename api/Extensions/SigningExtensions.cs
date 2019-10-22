@@ -1,10 +1,9 @@
-using Org.BouncyCastle.Crypto.Parameters;
-using Org.BouncyCastle.OpenSsl;
 using System.IO;
 using System.Security.Cryptography;
+using Org.BouncyCastle.Crypto.Parameters;
+using Org.BouncyCastle.OpenSsl;
 
-
-namespace PeristingGridLayoutApp.Extensions
+namespace PersistingGridLayoutApp.Extensions
 {
     public static class SigningExtensions
     {

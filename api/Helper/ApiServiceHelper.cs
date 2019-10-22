@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace PeristingGridLayoutApp.Helper
+namespace PersistingGridLayoutApp.Helper
 {
     public class ApiServiceHelper
     {

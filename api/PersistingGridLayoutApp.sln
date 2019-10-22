@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeristingGridLayoutApp", "PeristingGridLayoutApp.csproj", "{ABDC286A-16F1-446C-AC28-331C1D0BF970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistingGridLayoutApp", "PersistingGridLayoutApp.csproj", "{ABDC286A-16F1-446C-AC28-331C1D0BF970}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

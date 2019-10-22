@@ -1,4 +1,4 @@
-namespace PeristingGridLayoutApp.Authorization
+namespace PersistingGridLayoutApp.Authorization
 {
     public class EnvironmentConstants
     {

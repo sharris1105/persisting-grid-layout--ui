@@ -5,13 +5,14 @@
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <IsPackable>false</IsPackable>
-    <RootNamespace>PeristingGridLayoutApp</RootNamespace>
+    <RootNamespace>PersistingGridLayoutApp</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BouncyCastle.NetCore" Version="1.8.5" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
 
   <ItemGroup>

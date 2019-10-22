@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace PeristingGridLayoutApp.Authorization
+namespace PersistingGridLayoutApp.Authorization
 {
     public interface IAppAuthApiService
     {

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using PeristingGridLayoutApp.Authorization;
 using Microsoft.Extensions.Configuration;
+using PersistingGridLayoutApp.Authorization;
 
-namespace PeristingGridLayoutApp.Helper
+namespace PersistingGridLayoutApp.Helper
 {
     public class StartUpHelper
     {
@@ -16,7 +16,7 @@ namespace PeristingGridLayoutApp.Helper
                     {"Accept", "application/json"}
                 },
                 BaseRef = GetSingleEnvVariable(EnvironmentConstants.PathBase, config),
-                AppName = "PeristingGridLayoutApp",
+                AppName = "PersistingGridLayoutApp",
                 AppSecret = GetSingleEnvVariable(EnvironmentConstants.AppSecret, config)
             };
             return conf;

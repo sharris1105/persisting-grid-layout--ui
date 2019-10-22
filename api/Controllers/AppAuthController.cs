@@ -1,12 +1,11 @@
 using System.Net;
 using System.Threading.Tasks;
-using PeristingGridLayoutApp.Authorization;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using PersistingGridLayoutApp.Authorization;
 
-
-namespace PeristingGridLayoutApp.Controllers
+namespace PersistingGridLayoutApp.Controllers
 {
 
     [Route("api/[controller]")]

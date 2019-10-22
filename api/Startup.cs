@@ -1,8 +1,5 @@
 using System.IO;
 using System.Security.Cryptography;
-using PeristingGridLayoutApp.Authorization;
-using PeristingGridLayoutApp.Extensions;
-using PeristingGridLayoutApp.Helper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -11,8 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using PersistingGridLayoutApp.Authorization;
+using PersistingGridLayoutApp.Extensions;
+using PersistingGridLayoutApp.Helper;
 
-namespace PeristingGridLayoutApp
+namespace PersistingGridLayoutApp
 {
     public class Startup
     {

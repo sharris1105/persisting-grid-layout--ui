@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.Extensions.Configuration;
 
-namespace PeristingGridLayoutApp.Helper
+namespace PersistingGridLayoutApp.Helper
 {
     public static class ConfigHelper
     {
